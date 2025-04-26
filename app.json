@@ -2,6 +2,7 @@
   "expo": {
     "name": "TruckLink",
     "slug": "TruckLink",
+    "owner": "lucy123",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c63d5edf-288c-44d0-8383-e0697900d80b"
+      }
     }
   }
 }
