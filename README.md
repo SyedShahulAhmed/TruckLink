@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# 🚚 TruckLink App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+TruckLink is an app where **drivers** can add their trucks, and **users** can view available trucks for logistics and transportation services.
 
-## Get started
 
-1. Install dependencies
+## 🛠️ Features
 
-   ```bash
-   npm install
-   ```
+- **Login functionality** for drivers and users 🔐
+- **Drivers can add their trucks** to the system 🛻
+- **Users can view available trucks** 🚛
+- **Simple and easy-to-use interface** 📱
 
-2. Start the app
+## 📲 Installation
 
-   ```bash
-    npx expo start
-   ```
+### **Option 1: Install on Android**
 
-In the output, you'll find options to open the app in a
+1. [Download APK](https://expo.dev/artifacts/eas/5unJwg4GuU3mAFtTPmKSL.apk) 📥
+2. Open the link on your **Android device**.
+3. Tap to **download** and **install** the APK.
+4. Allow installation from **unknown sources** if prompted ⚠️.
+5. Once installed, launch the app and start using TruckLink 🚛.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧑‍💻 Run the app on Emulator (Optional)
 
-## Get a fresh project
+You can also install and run the Android build on an **emulator**:
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+? Install and run the Android build on an emulator? » (Y/n)
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Simply type **Y** when prompted and Expo will install the app on your emulator for testing.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📚 Tech Stack
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Frontend:** React Native ⚛️
+- **Backend:** Appwrite (for authentication, database) 🔐
+- **UI:** TailwindCSS 🌈
+- **Build System:** Expo EAS 🚀
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🔧 How to Run Locally
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/your-username/TruckLink.git
+    cd TruckLink
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the app in development mode:
+    ```bash
+    npm start
+    ```
+
+---
+
+## 🚀 Deploying
+
+To build the app for production, use EAS (Expo Application Services):
+
+```bash
+eas build -p android --profile production
+```
+
+---
+
+## 🤝 Contributing
+
+Feel free to contribute to the project by opening issues or submitting pull requests.  
+We welcome **suggestions** and **improvements**!
+
