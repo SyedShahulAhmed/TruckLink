@@ -70,7 +70,8 @@ eas build -p android --profile production
 ```
 
 ---
-
+## contributed by y.surya 
+Developed together with syed shahul.
 ## 🤝 Contributing
 
 Feel free to contribute to the project by opening issues or submitting pull requests.  
