@@ -69,8 +69,4 @@ To build the app for production, use EAS (Expo Application Services):
 eas build -p android --profile production
 ```
 
-## 🤝 Contributing
-
-Feel free to contribute to the project by opening issues or submitting pull requests.  
-We welcome **suggestions** and **improvements**!
 
